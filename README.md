@@ -35,6 +35,8 @@ EOF
 
 # install kubelet, kubeadm and kubectl
 sudo apt-get update
+# alternatively you can install specific version
+# sudo apt-get install -y kubeadm=1.22.5-00 kubelet=1.22.5-00 kubectl=1.22.5-00
 sudo apt-get install -y kubelet kubeadm kubectl
 
 # install docker
